@@ -30,3 +30,20 @@ a:hover {
 img{
    width:100%; 
 }
+/* Contact */ 
+#Contact .from-control{
+    background-color:var(--color-base);
+    border-color:var(--color-base);
+    color:var(--color-body);
+}
+#contact .from-control:focus{
+    border-color: var(--color-brand);
+    box-shadow: none;
+}
+#contact .from-control::placeholder{
+    color: var(--color-body);
+}
+#contact input.from-control{
+    height: 44px;
+}
+
